@@ -30,7 +30,7 @@ addDiv.addEventListener("click", function () {
   addDiv.style.display = "none";
   addDiv1.style.display = "flex";
   blur.style.filter = "blur(2px)";
-  blur.style.opacity = '0.3'
+  blur.style.opacity = '0.1'
 });
 
 addDiv1.addEventListener("click", closeForm);
