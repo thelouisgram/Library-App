@@ -30,6 +30,7 @@ addDiv.addEventListener("click", function () {
   addDiv.style.display = "none";
   addDiv1.style.display = "flex";
   blur.style.filter = "blur(2px)";
+  blur.style.opacity = '0.3'
 });
 
 addDiv1.addEventListener("click", closeForm);
@@ -39,7 +40,7 @@ function closeForm() {
   addDiv.style.display = "flex";
   addDiv1.style.display = "none";
   blur.style.filter = "blur(0px)";
-
+    blur.style.opacity = '1'
 }
 
 addBtn.addEventListener("click", addBookToLibrary);

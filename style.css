@@ -170,7 +170,7 @@ input:checked + .slider:before {
   padding: 20px;
   border-radius: 5px;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .book div {
@@ -204,7 +204,7 @@ input:checked + .slider:before {
   display: none;
   transition: 0.3s;
   border: solid 1px var(--tertiary-bg);
-  box-shadow: 0 1px 8px;
+  box-shadow: 0 1px 2px;
 }
 
 .textInput input {
@@ -262,6 +262,7 @@ label {
   margin-bottom: 20px;
   cursor: pointer;
   transition: 0.3s;
+  font-weight: 600;
 }
 
 #removeBtn {
@@ -271,6 +272,7 @@ label {
   color: var(--primary-color);
   background-color: var(--primary-bg);
   cursor: pointer;
+  font-weight: 600;
 }
 
 @media (max-width: 1000px) {
