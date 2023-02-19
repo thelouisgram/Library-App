@@ -156,6 +156,7 @@ input:checked + .slider:before {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -20px;
 }
 
 .shelf {
@@ -180,7 +181,8 @@ input:checked + .slider:before {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 .book-read-div {
@@ -202,6 +204,7 @@ input:checked + .slider:before {
   display: none;
   transition: 0.3s;
   border: solid 1px var(--tertiary-bg);
+  box-shadow: 0 1px 8px;
 }
 
 .textInput input {

@@ -39,6 +39,7 @@ function closeForm() {
   addDiv.style.display = "flex";
   addDiv1.style.display = "none";
   blur.style.filter = "blur(0px)";
+
 }
 
 addBtn.addEventListener("click", addBookToLibrary);
