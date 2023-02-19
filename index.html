@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/86cf6c5294.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Library App</title>
+  </head>
+  <body>
+    <div class="blur">
+      <header>
+        <div class="logo-div">
+          <img
+            src="https://img.icons8.com/external-justicon-flat-justicon/100/null/external-bookshelf-home-and-living-justicon-flat-justicon.png"
+          />
+          <h3>LIBRARY APP</h3>
+        </div>
+        <div class="right">
+          <div class="header-text">
+            <p>HOME</p>
+            <p>ABOUT</p>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="i-div">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider" id="slider1"></span>
+            </label>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="book-heading">
+          <h1 class="main-heading">MY BOOKS</h1>
+          <img
+            src="https://img.icons8.com/emoji/100/null/books-emoji.png"
+            class="shelf"
+          />
+        </div>
+      </div>
+      <div class="books-container" id="library-container"></div>
+    </div>
+    <div class="add-div">
+      <i class="fa-solid fa-plus"></i>
+    </div>
+    <div class="add-div1">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <div class="pop-up">
+      <form id="form" action="/app.js">
+        <legend>NEW BOOK</legend>
+        <div class="textInput">
+          <label for="title">Title</label>
+          <p>
+            <input type="text" id="title" name="title" placeholder="Title" />
+          </p>
+          <label for="author">Author</label>
+          <p>
+            <input type="text" id="author" name="author" placeholder="Author" />
+          </p>
+          <label for="pages">Pages</label>
+          <p>
+            <input type="number" id="pages" name="pages" placeholder="Pages" />
+          </p>
+        </div>
+        <div id="checkBox">
+          <p>
+            <label>Read: </label
+            ><input type="checkbox" id="read" name="read" value="yes" />
+          </p>
+        </div>
+        <button type="submit" form="form" class="addBtn">ADD BOOK</button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
