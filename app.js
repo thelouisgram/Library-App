@@ -26,11 +26,12 @@ const addDiv1 = document.querySelector(".add-div1");
 const blur = document.querySelector(".blur");
 
 addDiv.addEventListener("click", function () {
+  blur.style.filter = "blur(2px)";
+  blur.style.opacity = '0.1'
   popUp.style.display = "block";
   addDiv.style.display = "none";
   addDiv1.style.display = "flex";
-  blur.style.filter = "blur(2px)";
-  blur.style.opacity = '0.1'
+  
 });
 
 addDiv1.addEventListener("click", closeForm);
